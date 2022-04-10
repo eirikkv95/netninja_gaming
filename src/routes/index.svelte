@@ -1,10 +1,7 @@
 <script>
+  import Title from "$lib/title.svelte";
 </script>
 
-<nav>
-  <li><a href="/about">About</a></li>
-  <li><a href="/releaseDate">Release Date</a></li>
-  <li><a href="/graphql">Graphql</a></li>
-</nav>
-
 <h1>Home</h1>
+
+<a href="/about">Lets go</a>
