@@ -1,0 +1,25 @@
+:root {
+    --backgroundDark: hsl(244deg 22% 15%);
+    --backgroundLight: rgb(181, 179, 212);
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    transition: background-color 250ms;
+    background-color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color:rgb(28, 32, 53)
+    }
+}
+@media (prefers-color-scheme:light){
+    body{
+        background-color:rgb(112, 123, 151)
+    }
+}

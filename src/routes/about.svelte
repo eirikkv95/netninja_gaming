@@ -1,7 +1,6 @@
-<nav>
-  <li><a href="/">Home</a></li>
-  <li><a href="/releaseDate">Release Date</a></li>
-  <li><a href="/blog">Blog</a></li>
-</nav>
+<script>
+  import Title from "$lib/title.svelte";
+</script>
 
 <h1>About</h1>
+<a href="/">Let's go home</a>
